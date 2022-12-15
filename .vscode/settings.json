@@ -1,0 +1,10 @@
+{
+    "editor.renderLineHighlight": "none",
+    "editor.unusualLineTerminators": "prompt",
+    "files.insertFinalNewline": false,
+    "editor.renderWhitespace": "selection",
+    "editor.wordWrap": "on",
+    "editor.matchBrackets": "always",
+    "editor.guides.highlightActiveIndentation": true,
+    "editor.semanticHighlighting.enabled": "configuredByTheme"
+}
