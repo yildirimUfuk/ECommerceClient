@@ -5,6 +5,7 @@ import { SidebarComponent } from './sidebar/sidebar.component';
 import { FooterComponent } from './footer/footer.component';
 import { LayoutModule } from '../layout.module';
 import { RouterModule } from '@angular/router';
+import {MatListModule} from '@angular/material/list';
 
 
 
@@ -16,7 +17,8 @@ import { RouterModule } from '@angular/router';
   ],
   imports: [
     CommonModule,
-    RouterModule
+    RouterModule,
+    MatListModule
   ],
   exports:[
     HeaderComponent,
