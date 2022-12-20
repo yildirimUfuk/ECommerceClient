@@ -29,6 +29,7 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 ## installation
 => to install material -> ng add @angular/material 
 => to install bootstrap -> npm i bootstrap
+=> to install jquery -> npm i jquery
 
 ## Possible Errors
     -Error: Could not find the '@angular-devkit/build-angular:dev-server' builder's node package.
