@@ -27,11 +27,17 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
 
 ## installation
-=> to install material -> ng add @angular/material \n
-=> to install bootstrap -> npm i bootstrap \n
-=> to install jquery -> npm i jquery \n
+    => to install material -> ng add @angular/material
+    => to install bootstrap -> npm i bootstrap
+    => to install jquery -> npm i jquery
+    => to install alertifyJs -> npm install alertifyjs --save
 
 ## Possible Errors
     -Error: Could not find the '@angular-devkit/build-angular:dev-server' builder's node package.
     => npm uninstall @angular-devkit/build-angular
     => npm install --save-dev @angular-devkit/build-angular
+
+
+## usefull information.
+=> services: it is used for customization to libraries. To create service ng g s 'servicePath/serviceName'
+=> tsconfig.json: options of typeScript settings. -> to flexible rules (to define a property without initializer) change "strict" property to false. ("strict":false)
