@@ -9,7 +9,3 @@ declare var $:any // to use jquery
 export class AppComponent {
   title = 'ECommerceClient';
 }
-
-$(document).ready(()=>{
-  alert("asdf")
-})
