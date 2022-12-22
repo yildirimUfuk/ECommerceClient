@@ -31,13 +31,13 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
     => to install bootstrap -> npm i bootstrap
     => to install jquery -> npm i jquery
     => to install alertifyJs -> npm install alertifyjs --save
+    => to install toastr -> npm install ngx-toastr --save
 
 ## Possible Errors
     -Error: Could not find the '@angular-devkit/build-angular:dev-server' builder's node package.
     => npm uninstall @angular-devkit/build-angular
     => npm install --save-dev @angular-devkit/build-angular
 
-
-## usefull information.
-=> services: it is used for customization to libraries. To create service ng g s 'servicePath/serviceName'
-=> tsconfig.json: options of typeScript settings. -> to flexible rules (to define a property without initializer) change "strict" property to false. ("strict":false)
+## info
+    => services: it is used for customization to libraries. To create service ng g s 'servicePath/serviceName'
+    => tsconfig.json: options of typescript settings. -> to flexible rules ( ex: to define a poperty without initilation) change "strict" property to false. ("strinct":false)
