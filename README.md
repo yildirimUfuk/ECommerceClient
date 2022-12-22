@@ -32,6 +32,7 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
     => to install jquery -> npm i jquery
     => to install alertifyJs -> npm install alertifyjs --save
     => to install toastr -> npm install ngx-toastr --save
+    => to install spinner ->  npm install ngx-spinner --save
 
 ## Possible Errors
     -Error: Could not find the '@angular-devkit/build-angular:dev-server' builder's node package.
