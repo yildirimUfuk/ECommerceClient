@@ -9,10 +9,5 @@ declare var $:any // to use jquery
 })
 export class AppComponent {
   title = 'ECommerceClient';
-  constructor(private toastrService:CustomToastrService){
-    toastrService.message("abuzer","hola",{
-      messageType:ToastrMessageType.Info,
-      positon:ToastrPosition.BottomLeft
-    });
-  }
+  constructor(){};
 }

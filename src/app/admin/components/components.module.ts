@@ -17,4 +17,7 @@ import { DashboardModule } from './dashboard/dashboard.module';
     DashboardModule
   ]
 })
-export class ComponentsModule { }
+export class ComponentsModule { 
+  constructor(){
+  }
+}
