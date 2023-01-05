@@ -37,7 +37,7 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 ## Possible Errors
     -Error: Could not find the '@angular-devkit/build-angular:dev-server' builder's node package.
     => npm uninstall @angular-devkit/build-angular
-    => npm install --save-dev @angular-devkit/build-angular
+    => npm install --save-dev @angular-devkit/build-angular --force
 
 ## info
     => services: it is used for customization to libraries. To create service ng g s 'servicePath/serviceName'
